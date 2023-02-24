@@ -23,7 +23,7 @@ Screen1 As screen:
         ZIndex: =3
 
     Label2 As label:
-        Text: ="This is a test"
+        Text: ="ALEX DOQUANG IS THE GOAT"
         X: =603
         Y: =381
         ZIndex: =4
