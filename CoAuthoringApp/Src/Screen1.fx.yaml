@@ -1,0 +1,29 @@
+Screen1 As screen:
+
+    Rectangle1 As rectangle:
+        Width: =1366
+        ZIndex: =1
+
+    Label1 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Semibold
+        Size: =24
+        Text: ="Coauthoring Test"
+        Width: =769
+        X: =298
+        Y: =30
+        ZIndex: =2
+
+    Button1 As button:
+        Text: ="Button"
+        X: =603
+        Y: =584
+        ZIndex: =3
+
+    Label2 As label:
+        Text: ="This is a test"
+        X: =603
+        Y: =381
+        ZIndex: =4
+
