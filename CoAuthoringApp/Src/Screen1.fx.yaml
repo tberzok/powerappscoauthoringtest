@@ -16,6 +16,7 @@ Screen1 As screen:
         ZIndex: =2
 
     Button1 As button:
+        Fill: =RGBA(118, 0, 0, 1)
         Text: ="Button"
         X: =603
         Y: =584
