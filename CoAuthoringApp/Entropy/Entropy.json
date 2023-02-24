@@ -1,9 +1,26 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button1": 8,
+    "Gallery1": 10,
+    "galleryTemplate1": 11,
+    "Image1": 12,
+    "Label1": 6,
+    "Label2": 7,
+    "Label3": 5,
+    "NextArrow1": 15,
+    "Rectangle1": 4,
+    "Screen1": 3,
+    "Screen2": 9,
+    "Separator1": 16,
+    "Subtitle1": 14,
+    "Title1": 13
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "02/24/2023 17:42:28",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -11,15 +28,74 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 3,
+    "Movie Reviews": 4,
+    "Movie Reviews\\default.cds_slalom_moviereview_views": 2,
+    "Movie Reviews\\slalom_moviereview_statecode": 0,
+    "Movie Reviews\\slalom_moviereview_statuscode": 1
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "button": 2,
+    "gallery": 3,
+    "icon": 5,
+    "image": 4,
+    "label": 1,
+    "rectangle": 0
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Button1": {},
+    "Gallery1": {},
+    "galleryTemplate1": {},
+    "Image1": {},
+    "Label1": {},
+    "Label2": {},
+    "Label3": {},
+    "NextArrow1": {},
+    "Rectangle1": {},
+    "Screen1": {},
+    "Screen2": {},
+    "Separator1": {},
+    "Subtitle1": {},
+    "Title1": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button1": 7,
+    "Gallery1": 0,
+    "galleryTemplate1": 0,
+    "Image1": 0,
+    "Label1": 5,
+    "Label2": 6,
+    "Label3": 4,
+    "NextArrow1": 0,
+    "Rectangle1": 3,
+    "Screen1": 2,
+    "Screen2": 0,
+    "Separator1": 0,
+    "Subtitle1": 0,
+    "Title1": 0
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0212213,
+    "ControlCount": {
+      "button": 1,
+      "label": 3,
+      "rectangle": 1,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.0493069,
+    "ErrorCount": 0
+  },
+  "WasLocalDatabaseReferencesEmpty": false
 }
