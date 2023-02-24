@@ -1,0 +1,108 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "slalom_moviereviews",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "slalom_moviereview",
+    "Name": "Movie Reviews",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "slalom_distributor": "Distributor",
+      "slalom_genre": "Genre",
+      "slalom_moviereview_AsyncOperations": "System Jobs",
+      "slalom_moviereview_BulkDeleteFailures": "Bulk Delete Failures",
+      "slalom_moviereview_DuplicateBaseRecord": "Duplicate Records (slalom_moviereview_DuplicateBaseRecord)",
+      "slalom_moviereview_DuplicateMatchingRecord": "Duplicate Records (slalom_moviereview_DuplicateMatchingRecord)",
+      "slalom_moviereview_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "slalom_moviereview_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "slalom_moviereview_ProcessSession": "Process Sessions",
+      "slalom_moviereview_SyncErrors": "Sync Errors",
+      "slalom_moviereviewid": "Movie Review",
+      "slalom_mpaarating": "MPAA Rating",
+      "slalom_name": "Name",
+      "slalom_reviewrating": "Review Rating",
+      "slalom_ticketssold": "Tickets Sold",
+      "slalom_totalforyear": "Total for Year",
+      "slalom_totalforyear_base": "Total for Year (Base)",
+      "slalom_totalin2019": "Total in 2019",
+      "slalom_totalin2019_base": "Total in 2019 (Base)",
+      "slalom_year": "YEAR",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Movie Reviews",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Movie Reviews (Views)",
+    "Name": "_slalom_moviereview_views",
+    "RelatedEntityName": "Movie Reviews",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "299747b2-e3f6-4a42-93ea-118b0e42cf88": "Active Movie Reviews",
+      "8aa3e016-dcc2-4172-85c5-10639cb61bfc": "Movie Review Advanced Find View",
+      "9f499739-fee5-43a6-b42f-1b40ff1d2f0e": "Movie Review Associated View",
+      "bc1263a4-17c8-459a-802e-1885f9a031e0": "Movie Review Lookup View",
+      "fef62113-b265-4380-a979-ef531325b3fe": "Inactive Movie Reviews"
+    }
+  },
+  {
+    "DisplayName": "Status (Movie Reviews)",
+    "Name": "slalom_moviereview_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Movie Reviews"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Movie Reviews",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Movie Reviews)",
+    "Name": "slalom_moviereview_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Movie Reviews"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Movie Reviews",
+    "Type": "OptionSetInfo"
+  }
+]

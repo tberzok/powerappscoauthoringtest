@@ -100,7 +100,6 @@
     "FileID": "e4e9b858-9cc4-4638-bf26-625c875110ec",
     "Id": "e4e9b858-9cc4-4638-bf26-625c875110ec",
     "InstrumentationKey": "",
-    "LocalDatabaseReferences": "{}",
     "Name": "Co-Authoring Testing App",
     "OriginatingVersion": "1.327"
   },
@@ -116,6 +115,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1"
+    "Screen1",
+    "Screen2"
   ]
 }
