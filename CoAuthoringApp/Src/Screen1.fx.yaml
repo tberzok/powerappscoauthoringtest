@@ -28,3 +28,9 @@ Screen1 As screen:
         Y: =381
         ZIndex: =4
 
+    Label3 As label:
+        Text: ="I love tom brady"
+        X: =148
+        Y: =322
+        ZIndex: =5
+
